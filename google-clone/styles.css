@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    margin: 0px auto;
+}
+
+.search-txt {
+    box-sizing: border-box;
+    display: block;
+    width: 400px;
+    line-height: 24px;
+    margin: 0 auto;
+    border-radius: 24px;
+    border: 1px solid rgb(223, 225, 229);
+    padding: 10px 30px;
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #dfe1e5;
+    border: none;
+    border-radius: 4px;
+}
+
